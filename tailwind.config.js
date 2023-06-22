@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor:{
-        'purple': '#C891A2'
+        'purple': '#C891A2',
+        'green': '#5AA291'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -19,7 +20,7 @@ module.exports = {
         'button': '4px 4px 20px 0px rgba(0, 0, 0, 0.15), -4px -4px 20px 0px rgba(0, 0, 0, 0.08) inset, -4px -4px 20px 0px rgba(0, 0, 0, 0.15)'
       },
       colors:{
-        'purple': '#C891A2'
+        'purple': '#C891A2',
       }
     },
   },

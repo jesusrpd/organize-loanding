@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
 
+/* STYLES RESET */
 *{
   color: #425F55;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+}
+
+/* ANIMATION NAV BAR */
+.nav-check{
+  display: none;
+}
+nav{
+  transition: all .5s ease-in-out;
+}
+.nav-hamburguer div{
+  transition: all .5s;
+}
+.nav-check:checked ~ div .nav-hamburguer div:nth-child(2){
+  opacity: 0;
+}
+.nav-check:checked ~ div .nav-hamburguer div:nth-child(1){
+  rotate: 45deg;
+  transform: translateY(12px);
+}
+.nav-check:checked ~ div .nav-hamburguer div:nth-child(3){
+  rotate: -45deg;
+  transform: translateY(-11px);
+}
+.nav-links{
+  display: none;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.nav-check:checked ~.nav-links{
+  display: block;
+  opacity: 1;
 }

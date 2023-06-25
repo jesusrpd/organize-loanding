@@ -1,6 +1,6 @@
 export default function NavBar(){
     return(
-        <nav className="bg-green w-full h-fit py-4 fixed bottom-0 left-0 px-5 flex flex-col items-center">
+        <nav className="bg-green w-full h-fit py-4 fixed bottom-0 left-0 px-5 flex flex-col items-center z-10">
             <input type="checkbox" className="nav-check" id="check-nav"/>
             <ul className="nav-links mb-10 text-center">
                 <li className="text-white font-medium my-4">Home</li>

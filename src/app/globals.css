@@ -8,8 +8,12 @@
 /* STYLES RESET */
 *{
   color: #425F55;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Raleway', sans-serif;
+}
+
+input::placeholder , textarea::placeholder{
+  color: #425F55;
 }
 
 /* ANIMATION NAV BAR */
@@ -42,4 +46,13 @@ nav{
 .nav-check:checked ~.nav-links{
   display: block;
   opacity: 1;
+}
+
+/* FORM */
+.form-icon{
+  top: -14px;
+  left: -10px;
+}
+input:focus, textarea:focus{
+  outline: none;
 }

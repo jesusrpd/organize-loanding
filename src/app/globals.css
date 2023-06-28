@@ -56,3 +56,12 @@ nav{
 input:focus, textarea:focus{
   outline: none;
 }
+
+/* LIST */
+ul{
+  list-style-type: disc;
+}
+
+li{
+  color: rgb(161, 8, 161);
+}

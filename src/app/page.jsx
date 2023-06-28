@@ -44,7 +44,7 @@ export default function Home() {
                 <Functionalitie name="Rutinas" bg="green" icon="routine"/>
             </div>
         </section>
-        <section className="w-full py-4 flex flex-col items-center min-h-screen px-2">
+        <section className="w-full py-4 flex flex-col items-center min-h-screen px-2 pb-10">
             <h2 className="font-bold text-center text-4xl my-5">¡¡Colabora!!</h2>
             <p className="font-medium leading-8 mb-5 text-center">Si quieres ayudar en el desarrollo y progreso de este proyecto... llena el siguiente formulario, déjanos tu comentario y tu rol de especialidad. No necesitas tener mucha experiencia o si eres nuevo en tu área como Desarrollo Web, DevOps, Diseño, Marketing, Project Manager, Qa Testing etc. </p>
             <p className="font-medium leading-8 text-center">Para <span className="font-bold">ORGANIZE</span> será un placer tenerte en nuestro equipo y que puedas sumar experiencia con nosotros!!</p>
@@ -68,6 +68,23 @@ export default function Home() {
                 <button type="submit" className='bg-purple text-white px-7 py-1 font-bold rounded-md shadow-button hover:bg-white hover:text-purple transition-all'>Enviar</button>
             </form>
         </section>
+        <footer className="bg-green py-5 px-3 pb-12 flex flex-col justify-around items-center">
+            <div className="my-5">
+                <h3 className="text-5xl font-bold text-white">ORGANIZE</h3>
+                <p className="text-white text-center mt-4">Manten un orden en tu vida.</p>
+            </div>
+            <ul className="my-5">
+                <li className="my-4 font-bold text-3xl text-purple"><p className="text-white">Sobre nosotros</p></li>
+                <li className="my-4 font-bold text-3xl text-purple"><p className="text-white">¿Qué es?</p></li>
+                <li className="my-4 font-bold text-3xl text-purple"><p className="text-white">Funcionalidades</p></li>
+                <li className="my-4 font-bold text-3xl text-purple"><p className="text-white">Colabora</p></li>
+            </ul>
+            <div className="my-5">
+                <p className="text-white my-4 text-center">Creado por <span className="font-bold text-white">Jesús Rodrigo.</span></p>
+                <p className="text-white my-4 text-center">Términos y Condiciones.</p>
+                <p className="text-white my-4 text-center">Ayuda.</p>
+            </div>
+        </footer>
     </>
   )
 }

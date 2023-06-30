@@ -13,15 +13,15 @@ module.exports = {
         'green-light': '#B5D2C8'
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'tablet': "url('/bg-img/bg-tablet.png')"
       },
       boxShadow:{
         'button': '4px 4px 20px 0px rgba(0, 0, 0, 0.15), -4px -4px 20px 0px rgba(0, 0, 0, 0.08) inset, -4px -4px 20px 0px rgba(0, 0, 0, 0.15)'
       },
       colors:{
         'purple': '#C891A2',
+        'green': '#5AA291',
+        'text': '#425F55'
       }
     },
   },

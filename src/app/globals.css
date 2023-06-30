@@ -65,3 +65,19 @@ ul{
 li{
   color: rgb(161, 8, 161);
 }
+
+/* LINKS VERSION DESK AND TABLET */
+.nav-links-desk:hover{
+  color: #C891A2;
+}
+.nav-links-desk::after{
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  color: #C891A2;
+  transition: all .3s ease-in-out;
+}
+.nav-links-desk:hover::after{
+  width: 100%;
+}
